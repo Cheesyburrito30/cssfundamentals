@@ -1,0 +1,31 @@
+.headerContainer{
+	display: grid;
+	grid-template-columns: 400px 400px;
+	grid-gap: 10px;
+	background-color: #fff;
+	color:#444;
+	border: 2px solid;
+}
+/*STARTED PLAYING WITH TRYING TO MAKE A GRID*/
+
+.body {
+	display: grid;
+	text-align: left;
+	background-color: #ddd;
+	padding:10px;
+	margin-left: 15px;
+	width: 400px;
+	height: 400px;
+	border: 2px solid;
+}
+/*.bodytwo {
+					  display: grid;
+					  width: 400px;
+					  height: 400px;
+					  text-align: left;
+					  padding: 10px;
+					  background-color: #ddd;
+					  vertical-align: top;
+					  border: 2px solid;
+					  
+}*/
