@@ -9,7 +9,7 @@
 	width: 12em;
 	border: 3px solid black;
 	clear: both;
-	-webkit-transform: rotate(60deg);
+	/-webkit-transform: rotate(60deg);
 
 }
 .pupil {
@@ -24,7 +24,7 @@
 
 }
 .lefteye {
-	display: inline-block;
+	/display: inline-block;
 	background-color: white;
 	border: 3px solid black;
 	border-radius: 50%;
@@ -43,9 +43,8 @@
 	height: 5em;
 	width: 5em;
 	z-index: 2;
-	position: initial;
 	top: 0em;
-	left: 0em;
+	left: 4em;
 
 }
 .mouth {
