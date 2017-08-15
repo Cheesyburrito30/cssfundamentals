@@ -1,0 +1,15 @@
+body{
+	text-align: left;
+	background-color: #ddd;
+	padding:20px;
+	width: 300px;
+	height: auto;
+	margin: 15px;
+	border: 20px solid blue;
+}
+.notes{
+	color: green;
+}
+.listnotes{
+	color: blue;
+}
