@@ -1,0 +1,31 @@
+#container{
+	background-color: blue;
+	display: inline-block;
+	width: 400px;
+	height: 400px;
+}
+#contents{
+	background-color: #ddd;
+	display: inline-block;
+	width: 320px;
+	height: 320px;
+	margin:38px;
+	text-align: center;
+	text-height: 320px;
+	border: 2px solid white;
+}
+#r1{
+	background-color: green;
+	padding: 10px 20px;
+	border: 2px solid white;
+}
+#r2{
+	background-color: purple;
+	padding: 20px 10px;
+	border: 2px solid white;
+}
+#r3{ 
+	background-color: aqua;
+	padding: 40px 20px;
+	border: 2px solid white;
+}
