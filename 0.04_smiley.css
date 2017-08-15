@@ -1,0 +1,66 @@
+.wrapper {
+	margin: 5px;
+	border: 2px solid black;
+}
+.face {
+	background-color: yellow;
+	border-radius: 50%;
+	height: 13em;
+	width: 12em;
+	border: 3px solid black;
+	clear: both;
+	-webkit-transform: rotate(60deg);
+
+}
+.pupil {
+	background-color: black;
+	height: 2em;
+	width: 2em;
+	z-index: 2;
+	border-radius: 50%;
+	position: relative;
+	left:1em;
+	top:1em;
+
+}
+.lefteye {
+	display: inline-block;
+	background-color: white;
+	border: 3px solid black;
+	border-radius: 50%;
+	height: 5em;
+	width: 5em;
+	z-index: 1;
+	position: relative;
+	left:0em;
+	top:0em;
+}
+.righteye {
+	display:inline-block;
+	background-color: white;
+	border: 3px solid black;
+	border-radius: 50%;
+	height: 5em;
+	width: 5em;
+	z-index: 2;
+	position: initial;
+	top: 0em;
+	left: 0em;
+
+}
+.mouth {
+	width: 6em;
+    height: 3em; /* as the half of the width */
+    background-color: pink;
+    border-top-left-radius: 3.5em;  /* 100px of height + 10px of border */
+    border-top-right-radius: 3.5em; /* 100px of height + 10px of border */
+    border-bottom-left-radius: 0em;
+    border-bottom-right-radius: 0em;
+    border: 3px solid black;
+    border-bottom: 0;
+    z-index: 1;
+    position: relative;
+    top: 3em;
+    left: 2em;
+     -webkit-transform: rotate(180deg);
+}
