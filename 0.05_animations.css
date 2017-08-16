@@ -1,0 +1,46 @@
+/*example taken from w3schools.com*/
+@keyframes example {
+    0%   {background-color: red;}
+	25%  {background-color: yellow;}
+	50%  {background-color: blue;}
+	100% {background-color: green;}
+		}
+.example {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: example;
+	animation-duration: 4s;
+}
+
+/*my code*/
+body {
+	font-size: 25px;
+}
+h2 {
+	text-decoration: underline;
+}
+.examplecode {
+	text-indent: -3em;
+	padding-left: 3em;
+}
+@keyframes exampleanimation {
+	0% {background-color: transparent;}
+	100% {background-color: black;}
+}
+.example2 {
+	width: 10em;
+	height: 10em;
+	background: black;
+	animation-name: exampleanimation;
+	animation-duration: 5s;
+}
+.example3 {
+	width: 10em;
+	height: 10em;
+	background: black;
+	animation: 5s infinite exampleanimation
+	/*animation-name: example2;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+}*/

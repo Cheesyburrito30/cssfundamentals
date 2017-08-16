@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Animations</title>
+		<link rel="stylesheet" type="text/css" href="./0.05_animations.css">
+	</head>
+	<body>
+	<h1>Animations</h1>
+	<h2>Example:</h2>
+		<div class="example"></div>
+	<h2>Notes:</h2>
+		<p>An animation changes an element from one style to another gradually.</p>
+		<p>To use an animation you must prepare a '@keyframe' of what you want it to do at the start, middle, and end. For example:</p>
+			<p class="examplecode"><b>
+				@keyframes example { <br>
+					0% {background-color: transparent;}<br>
+					100% {background-color: black} <br> 
+				}<br>
+			</b></div></p>
+		<p>You must also bind the keyframes to the block of code you want it to run on. For example:</p>
+			<p class="examplecode"><b>
+				.example { <br>
+					width: 100px; <br>
+					height: 100px; <br>
+					animation-name: example; <br>
+					animation-duration: 5s;<br>
+				}
+			</b></p>
+		<p>Those, put together, will do this:</p>
+		<div class="example2"></div>
+		<p>Now, our animation only happens one time on the page loading! There's a way that we can get it to load multiple times, or even infinite times. This is how:</p>
+		<p class="examplecode">
+				.example { <br>
+					width: 100px; <br>
+					height: 100px; <br>
+					animation-name: example; <br>
+					animation-duration: 5s;<br>
+					<b>animation-iteration-count: (number or infinite)</b><br>
+				}</p>
+		<p>Now the code animation will repeat forever!</p>
+		<div class="example3"></div>
+	</body>
+</html>
